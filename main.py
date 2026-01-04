@@ -1,8 +1,6 @@
-import subprocess
-
 def main():
     print("Hello World")
-    subprocess.run(["git", "init"])
+    print("commit kontrol")
 
 if __name__ == "__main__":
     main()
