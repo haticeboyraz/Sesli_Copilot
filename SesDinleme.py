@@ -21,7 +21,7 @@ def record_and_play():
     
     # Kaydı geri çal
     sd.play(recording, samplerate=sample_rate)
-    sd.wait()  # Oynatmayı bitir
+    sd.wait()  # Oynatmayı bitiri
     
     print("İşlem tamamlandı!")
     
